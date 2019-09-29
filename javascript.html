@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>javascript</title>
+    <script type="text/javascript">
+    function substitute(){
+      var myvalue=  getElementById("wow").value;
+
+      var Mytitle=getElementById("title");
+      Mytitle.innerHTML=myvalue;
+    }
+    </script>
+  </head>
+  <body>
+    <h1 id=title>My javascript program</h1>
+    <input type="text" id="wow">
+    <input type="submit" value="click me" onclick="substitute()">
+
+  </body>
+</html>
